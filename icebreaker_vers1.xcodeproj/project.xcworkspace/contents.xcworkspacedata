@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FoodTracker.xcodeproj">
+      location = "self:/Users/rtaneja/Desktop/ios-projects/icebreaker_vers1/icebreaker_vers1.xcodeproj">
    </FileRef>
 </Workspace>
