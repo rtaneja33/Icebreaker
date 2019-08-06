@@ -20,6 +20,9 @@
 		A7D7103622DBA93A002EC07E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7103522DBA93A002EC07E /* Meal.swift */; };
 		A7D7103822DBAEB0002EC07E /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7103722DBAEB0002EC07E /* MealTableViewCell.swift */; };
 		A7D7103E22DBB542002EC07E /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7103D22DBB542002EC07E /* MealTableViewController.swift */; };
+		A8A451F829E3E409C1F8EB70 /* Pods_icebreaker_vers1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57AA2DF875B1CB9BE888D3 /* Pods_icebreaker_vers1.framework */; };
+		B69666EB20C74F5F0F454BE7 /* Pods_icebreaker_vers1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE0D7FB783C0CE3412083E4 /* Pods_icebreaker_vers1Tests.framework */; };
+		BAA9E1C022F7555500E2A718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B57AA2DF875B1CB9BE888D3 /* Pods_icebreaker_vers1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icebreaker_vers1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7D3446F002975C000A3DEA /* Pods-icebreaker_vers1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icebreaker_vers1.release.xcconfig"; path = "Target Support Files/Pods-icebreaker_vers1/Pods-icebreaker_vers1.release.xcconfig"; sourceTree = "<group>"; };
+		73F82E1B30B162CCC72DB541 /* Pods-icebreaker_vers1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icebreaker_vers1.debug.xcconfig"; path = "Target Support Files/Pods-icebreaker_vers1/Pods-icebreaker_vers1.debug.xcconfig"; sourceTree = "<group>"; };
+		7706F126969F63F34607217F /* Pods-icebreaker_vers1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icebreaker_vers1Tests.debug.xcconfig"; path = "Target Support Files/Pods-icebreaker_vers1Tests/Pods-icebreaker_vers1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE0D7FB783C0CE3412083E4 /* Pods_icebreaker_vers1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icebreaker_vers1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72C32C222EFF23E00F01824 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A72C32C422F12E5100F01824 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A72C32C622F12EA900F01824 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +58,8 @@
 		A7D7103522DBA93A002EC07E /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A7D7103722DBAEB0002EC07E /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		A7D7103D22DBB542002EC07E /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8835EE835467DBCCEC2D766 /* Pods-icebreaker_vers1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icebreaker_vers1Tests.release.xcconfig"; path = "Target Support Files/Pods-icebreaker_vers1Tests/Pods-icebreaker_vers1Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A451F829E3E409C1F8EB70 /* Pods_icebreaker_vers1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,18 +75,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69666EB20C74F5F0F454BE7 /* Pods_icebreaker_vers1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53C1944A80B37BC19339B27E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B57AA2DF875B1CB9BE888D3 /* Pods_icebreaker_vers1.framework */,
+				9AE0D7FB783C0CE3412083E4 /* Pods_icebreaker_vers1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7B0286822D8275B0087B294 = {
 			isa = PBXGroup;
 			children = (
 				A7B0287322D8275B0087B294 /* FoodTracker */,
 				A7B0288822D8275D0087B294 /* FoodTrackerTests */,
 				A7B0287222D8275B0087B294 /* Products */,
+				C9F1B1B2B26A627354318108 /* Pods */,
+				53C1944A80B37BC19339B27E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,7 @@
 				A72C32C422F12E5100F01824 /* SignUpViewController.swift */,
 				A7D7103322DB9891002EC07E /* Assets.xcassets */,
 				A7B0287D22D8275D0087B294 /* LaunchScreen.storyboard */,
+				BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */,
 				A7B0288022D8275D0087B294 /* Info.plist */,
 			);
 			path = FoodTracker;
@@ -117,6 +141,18 @@
 			path = FoodTrackerTests;
 			sourceTree = "<group>";
 		};
+		C9F1B1B2B26A627354318108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73F82E1B30B162CCC72DB541 /* Pods-icebreaker_vers1.debug.xcconfig */,
+				2F7D3446F002975C000A3DEA /* Pods-icebreaker_vers1.release.xcconfig */,
+				7706F126969F63F34607217F /* Pods-icebreaker_vers1Tests.debug.xcconfig */,
+				F8835EE835467DBCCEC2D766 /* Pods-icebreaker_vers1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B0288E22D8275D0087B294 /* Build configuration list for PBXNativeTarget "icebreaker_vers1" */;
 			buildPhases = (
+				2E27741043C7BDD93473ABF9 /* [CP] Check Pods Manifest.lock */,
 				A7B0286D22D8275B0087B294 /* Sources */,
 				A7B0286E22D8275B0087B294 /* Frameworks */,
 				A7B0286F22D8275B0087B294 /* Resources */,
+				52A7A3F7CD16A8BFCD4F58BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B0289122D8275D0087B294 /* Build configuration list for PBXNativeTarget "icebreaker_vers1Tests" */;
 			buildPhases = (
+				61F77AA6202645C9E53C74FB /* [CP] Check Pods Manifest.lock */,
 				A7B0288122D8275D0087B294 /* Sources */,
 				A7B0288222D8275D0087B294 /* Frameworks */,
 				A7B0288322D8275D0087B294 /* Resources */,
@@ -199,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B0287F22D8275D0087B294 /* LaunchScreen.storyboard in Resources */,
+				BAA9E1C022F7555500E2A718 /* GoogleService-Info.plist in Resources */,
 				A7D7103422DB9892002EC07E /* Assets.xcassets in Resources */,
 				A7B0287A22D8275B0087B294 /* Main.storyboard in Resources */,
 			);
@@ -212,6 +252,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E27741043C7BDD93473ABF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-icebreaker_vers1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A7A3F7CD16A8BFCD4F58BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-icebreaker_vers1/Pods-icebreaker_vers1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-icebreaker_vers1/Pods-icebreaker_vers1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-icebreaker_vers1/Pods-icebreaker_vers1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F77AA6202645C9E53C74FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-icebreaker_vers1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7B0286D22D8275B0087B294 /* Sources */ = {
@@ -386,6 +490,7 @@
 		};
 		A7B0288F22D8275D0087B294 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F82E1B30B162CCC72DB541 /* Pods-icebreaker_vers1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -404,6 +509,7 @@
 		};
 		A7B0289022D8275D0087B294 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7D3446F002975C000A3DEA /* Pods-icebreaker_vers1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +528,7 @@
 		};
 		A7B0289222D8275D0087B294 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7706F126969F63F34607217F /* Pods-icebreaker_vers1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,6 +549,7 @@
 		};
 		A7B0289322D8275D0087B294 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8835EE835467DBCCEC2D766 /* Pods-icebreaker_vers1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

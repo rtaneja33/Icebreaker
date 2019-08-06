@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class StartViewController: UIViewController {
 
     @IBOutlet weak var navBar: UINavigationItem!
@@ -21,6 +21,9 @@ class StartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
+        if Auth.auth().currentUser != nil {
+            self.performSegue(withIdentifier: "alreadyLoggedIn", sender: nil)
+        }
     }
     
 

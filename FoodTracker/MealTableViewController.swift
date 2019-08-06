@@ -8,6 +8,7 @@
 
 import UIKit
 import os.log
+import FirebaseAuth
 class MealTableViewController: UITableViewController {
     //MARK: Properties
     
@@ -17,7 +18,8 @@ class MealTableViewController: UITableViewController {
         // Use the edit button item provided by the table view controller.
         
         super.viewDidLoad()
-        navigationItem.leftBarButtonItem = editButtonItem
+
+        //navigationItem.leftBarButtonItem = editButtonItem
         if let savedMeals = loadMeals() {
             meals += savedMeals
         }else {
@@ -30,7 +32,10 @@ class MealTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -42,6 +47,19 @@ class MealTableViewController: UITableViewController {
         return meals.count
     }
     //MARK: Actions
+    
+    @IBAction func logOutAction(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        }
+        catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.rootViewController = initial
+    }
     @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? MealViewController, let meal = sourceViewController.meal {
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
