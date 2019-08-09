@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A72C32C322EFF23E00F01824 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C32C222EFF23E00F01824 /* StartViewController.swift */; };
 		A72C32C522F12E5100F01824 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C32C422F12E5100F01824 /* SignUpViewController.swift */; };
 		A72C32C722F12EA900F01824 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C32C622F12EA900F01824 /* LoginViewController.swift */; };
+		A77D97E022FD30DE00E2FAE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A77D97DF22FD30DE00E2FAE6 /* GoogleService-Info.plist */; };
+		A77D97E122FD30DE00E2FAE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A77D97DF22FD30DE00E2FAE6 /* GoogleService-Info.plist */; };
 		A7B0287522D8275B0087B294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0287422D8275B0087B294 /* AppDelegate.swift */; };
 		A7B0287722D8275B0087B294 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0287622D8275B0087B294 /* MealViewController.swift */; };
 		A7B0287A22D8275B0087B294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B0287822D8275B0087B294 /* Main.storyboard */; };
@@ -22,7 +24,6 @@
 		A7D7103E22DBB542002EC07E /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7103D22DBB542002EC07E /* MealTableViewController.swift */; };
 		A8A451F829E3E409C1F8EB70 /* Pods_icebreaker_vers1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57AA2DF875B1CB9BE888D3 /* Pods_icebreaker_vers1.framework */; };
 		B69666EB20C74F5F0F454BE7 /* Pods_icebreaker_vers1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE0D7FB783C0CE3412083E4 /* Pods_icebreaker_vers1Tests.framework */; };
-		BAA9E1C022F7555500E2A718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A72C32C222EFF23E00F01824 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A72C32C422F12E5100F01824 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A72C32C622F12EA900F01824 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A77D97DF22FD30DE00E2FAE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7B0287122D8275B0087B294 /* icebreaker_vers1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icebreaker_vers1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B0287422D8275B0087B294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B0287622D8275B0087B294 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +60,6 @@
 		A7D7103522DBA93A002EC07E /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A7D7103722DBAEB0002EC07E /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		A7D7103D22DBB542002EC07E /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
-		BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8835EE835467DBCCEC2D766 /* Pods-icebreaker_vers1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icebreaker_vers1Tests.release.xcconfig"; path = "Target Support Files/Pods-icebreaker_vers1Tests/Pods-icebreaker_vers1Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +127,7 @@
 				A72C32C422F12E5100F01824 /* SignUpViewController.swift */,
 				A7D7103322DB9891002EC07E /* Assets.xcassets */,
 				A7B0287D22D8275D0087B294 /* LaunchScreen.storyboard */,
-				BAA9E1BF22F7555500E2A718 /* GoogleService-Info.plist */,
+				A77D97DF22FD30DE00E2FAE6 /* GoogleService-Info.plist */,
 				A7B0288022D8275D0087B294 /* Info.plist */,
 			);
 			path = FoodTracker;
@@ -149,7 +150,6 @@
 				7706F126969F63F34607217F /* Pods-icebreaker_vers1Tests.debug.xcconfig */,
 				F8835EE835467DBCCEC2D766 /* Pods-icebreaker_vers1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B0287F22D8275D0087B294 /* LaunchScreen.storyboard in Resources */,
-				BAA9E1C022F7555500E2A718 /* GoogleService-Info.plist in Resources */,
+				A77D97E022FD30DE00E2FAE6 /* GoogleService-Info.plist in Resources */,
 				A7D7103422DB9892002EC07E /* Assets.xcassets in Resources */,
 				A7B0287A22D8275B0087B294 /* Main.storyboard in Resources */,
 			);
@@ -248,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77D97E122FD30DE00E2FAE6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

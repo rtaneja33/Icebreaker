@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1010352871706-063obdc3kbajfqu2dlrvq8bpm11glveh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1010352871706-063obdc3kbajfqu2dlrvq8bpm11glveh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAG4lW3jXmVmCS0P4r9arwM7AQ2JpbWlwo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1010352871706</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rtaneja.icebreaker-vers1</string>
+	<key>PROJECT_ID</key>
+	<string>icebreakerdb-77036</string>
+	<key>STORAGE_BUCKET</key>
+	<string>icebreakerdb-77036.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1010352871706:ios:c4af5dbf682ee48b</string>
+	<key>DATABASE_URL</key>
+	<string>https://icebreakerdb-77036.firebaseio.com</string>
+</dict>
+</plist>
